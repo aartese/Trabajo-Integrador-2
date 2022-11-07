@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codo a Codo</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/stilo.css">
+</head>
+<!-- fin Menu Barra head -->
+<body>
+    <div>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Conf Bs As</a>
+              <ul class="navbar-nav nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">La conferencia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Los oradores</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">El lugar y la fecha</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Conviértete en orador</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link ticket" >Comprar Ticket</a>
+                </li>
+
+              </ul>
+            </div>
+          </nav>   
+    </div>
+    <!----------------------------------------------------->
+    <main>
+        <!--etiquetas-->
+        <section class="oradores">
+            <article class="oradores-container">
+                <div class="row">
+
+                    <div class="col">
+                    <div class="orador  bor1">
+                        <div class="orador-content">
+                            <p class=" clTxt1">Estudiante</p>
+                            <p class="clTxt2">Tiene un descuento</span>
+                            <p class="cen">80%</p>
+                            <p class="clTxt3">* presentar documentación</p>
+                        </div>  
+                    </div>                   
+                    </div>
+
+                    <div class="col">
+                    <div class="orador bor2">
+                        <div class="orador-content">
+                            <p class=" clTxt1">Trainee</p>
+                            <p class="clTxt2">Tiene un descuento</span>
+                            <p class="cen">50%</p>
+                            <p class="clTxt3">* presentar documentación</p>
+                        </div>    
+                    </div>
+                    </div>
+
+                    <div class="col">
+                    <div class="orador bor3">
+                        <div class="orador-content">
+                            <p class=" clTxt1">Junior</p>
+                            <p class="clTxt2">Tiene un descuento</span>
+                            <p class="cen">15%</p>
+                            <p class="clTxt3">* presentar documentación</p>
+                        </div>
+                    </div>
+                    </div> 
+                </row>           
+            </article>
+        </section>
+    <!-- Form -->
+    <div class="container padi1">
+    <section class="form">
+        <h6 class="centro">Venta</h6>
+        <h2 class="centro">VALOR DE TICKET $200</h2>
+        <form>
+            <div class="row margi1">
+              <div class="col padi2">
+                <input type="nombre" id="Nom" class="form-control" placeholder="Nombre" name="nom">
+              </div>
+              <div class="col padi2">
+                <input type="apellido" id="Ape" class="form-control" placeholder="Apellido" name="ape">
+              </div>
+            </div>
+             <div class="row margi1">
+                <div class="col padi2">
+                    <input type="mail" id="mail" class="form-control" placeholder="Correo" name="email">
+                </div>
+            </div>
+             <div class="row margi1">
+                <div class="col padi2">
+                    <p class="clTxt4">Cantidad</p>
+                    <input type="mail" id="cant" class="form-control" placeholder="Cantidad" name="email">
+                </div>
+                <div class="col padi2">
+                    <p class="clTxt4">Categoria</p>    
+                    <select class="form-control form-select" id ="cate" name ="cate">
+                        <option >Estudiante</option>
+                        <option >Trainee</option>
+                        <option >Junior</option>
+                      </select>
+                </div>
+            </div>
+            <div class="row margi1">
+                <div class="col padi2">
+                    <div class="alert alert-primary padi2">
+                        <p id="totpaga">Total a Pagar: $</p> 
+                        
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+    </div>
+    <!-- Botones -->
+    <div class="container padi1">
+        <div class="row margi1">
+            <div class="col padi2"> 
+                <button type="button" id="btnBorrar"class="btn fondo">Borrar</button>
+            </div>
+            <div class="col padi2">
+                <button type="button" id="btnResumen" class="btn fondo">Resumen</button>
+            </div>
+        </div>
+    </div>
+    </main>
+<!-- footer-->
+    <footer>
+        <ul>
+            <li>Preguntas <br> Frecuentes</li>
+            <li>Contáctanos</li>
+            <li>Prensa</li>
+            <li>Conferencias</li>
+            <li>Términos y <br> Condiciones </li>
+            <li>Privacidad</li>
+            <li>Estudiantes</li>
+        </ul>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
