@@ -1,0 +1,103 @@
+.centro{
+    text-align: center;
+}
+.dere{
+    text-align: right;
+}
+.cen{
+    text-align: center;
+    font-weight: bold;
+    font-size: 100%;
+}
+.navbar{
+    color: DarkSlateGrey;
+}
+.orador {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 100%;
+}
+.bor1{
+    border: 1.5px solid rgb(49, 6, 240);
+}
+.bor2{
+    border: 1.5px solid rgba(56, 223, 56, 0.733);
+}
+.bor3{
+    border: 1.5px solid rgb(252, 145, 5);
+}
+.padi1{
+    padding-left: 50px;
+    padding-right: 50px;   
+}
+.padi2{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.margi1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.oradores-container {
+    max-width: 80%;
+    margin:2% auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 2rem;
+}
+.orador-content {
+    padding: 2%;
+}
+.clTxt1{
+    text-align: center; 
+    color:rgb(7, 7, 7);
+    font-size: 160%;
+    font-weight: bold;
+}
+.clTxt2{
+    text-align: center; 
+    color:rgb(7, 7, 7);
+    font-size: 120%;
+
+}
+.clTxt3{
+    text-align: center; 
+    color:rgb(95, 94, 94);
+    font-size: 80%;
+}
+.clTxt4{
+    font-weight: bold;
+}
+.fondo{
+    background-color: #63b64af3;
+    color: #fff;
+    width: 100%;
+}
+footer {
+    background: linear-gradient(90deg, rgba(28,54,67,1) 0%, rgba(29,69,91,1) 50%, rgba(30,82,113,1) 100%);
+    padding: 2rem;
+}
+
+ul {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    
+    padding: 0;
+}
+
+footer li {
+    list-style-type: none;
+    padding: 0.3rem;
+    margin-left: 1rem 1rem;
+    color: #fff;
+    align-self: center;
+}
+.ticket{
+    color:rgb(0, 255, 76);
+    text-align: right;
+}
